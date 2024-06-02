@@ -1,0 +1,145 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hey", 
+                "Hello", 
+                "What's up?", 
+                "Hi", 
+                "Good morning", 
+                "Good afternoon", 
+                "Good evening", 
+                "Good day", 
+                "How is it going?"
+            ],
+            "responses": [
+                "Hello Sir!", 
+                "Hello, what can I do for you?", 
+                "Hi, how can I help you?", 
+                "Hey, how can I help you?", 
+                "Hello, how can I help you?", 
+                "Hello, how are you doing?", 
+                "Hello, how can I assist you?", 
+                "Hello, how can I help you today?", 
+                "Hello, how can I help you right now?", 
+                "Hello, how can I help you at the moment?", 
+                "Hello, how can I help you at this moment?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye", 
+                "Bye", 
+                "See you later", 
+                "Later", 
+                "Goodnight", 
+                "Good night", 
+                "Take care", 
+                "Have a good day", 
+                "Have a good night", 
+                "Have a good evening", 
+                "Have a good afternoon", 
+                "Have a good morning", 
+                "Good day", 
+                "Goodnight, see you later", 
+                "Good night, see you later", 
+                "Goodbye, see you later", 
+                "Goodbye, see you soon", 
+                "Goodbye, see you next time", 
+                "Goodbye, see you tomorrow", 
+                "Goodbye, see you next week", 
+                "Goodbye, see you next month", 
+                "Goodbye, see you next year", 
+                "Goodbye, see you later, take care", 
+                "Goodbye, see you soon, take care", 
+                "Goodbye, see you next time, take care", 
+                "Goodbye, see you tomorrow, take care", 
+                "Goodbye, see you next week, take care", 
+                "Goodbye, see you next month, take care", 
+                "Goodbye, see you next year, take care", 
+                "Goodbye, see you later, take care, have a good day", 
+                "Goodbye, see you soon, take care, have a good day", 
+                "Goodbye, see you next time, take care, have a good day", 
+                "Goodbye, see you tomorrow, take care, have a good day", 
+                "Goodbye, see you next week, take care, have a good day", 
+                "Goodbye, see you next month, take care, have a good day", 
+                "Goodbye, see you next year, take care, have a good day"
+            ],
+            "responses": [
+                "Goodbye!", 
+                "See you later!", 
+                "Take care!", 
+                "Have a great day!", 
+                "Goodbye, see you soon!"
+            ]
+        },
+        {
+            "tag": "create_note",
+            "patterns": [
+                "I want to create a note", 
+                "Can you take a note?", 
+                "Please create a note", 
+                "Add a note for me", 
+                "Make a note", 
+                "Write this down", 
+                "Take a note", 
+                "Create a note", 
+                "Can you jot this down?", 
+                "Note this"
+            ],
+            "responses": [
+                "Sure, what would you like the note to say?", 
+                "Okay, what should I write in the note?", 
+                "What would you like me to note down?", 
+                "Got it, what do you want to note?", 
+                "I'm ready to create the note. What should it say?"
+            ]
+        },
+        {
+            "tag": "add_todo",
+            "patterns": [
+                "Add a new task", 
+                "Can you add a to-do?", 
+                "Please add this to my to-do list", 
+                "I need to add a task", 
+                "Add this to my to-do list", 
+                "Create a new task", 
+                "Add a new item to my to-do list", 
+                "Put this on my to-do list", 
+                "I want to add a to-do", 
+                "Add this task for me"
+            ],
+            "responses": [
+                "Sure, what task would you like to add?", 
+                "Okay, what is the task?", 
+                "What do you need to add to your to-do list?", 
+                "Got it, what task should I add?", 
+                "I'm ready to add the task. What is it?"
+            ]
+        },
+        {
+            "tag": "show_todo",
+            "patterns": [
+                "Show me my to-do list", 
+                "What do I have to do?", 
+                "List my tasks", 
+                "What are my tasks?", 
+                "Show my to-do items", 
+                "What is on my to-do list?", 
+                "What do I need to do?", 
+                "Show my to-dos", 
+                "Show my tasks", 
+                "Can you show my to-do list?"
+            ],
+            "responses": [
+                "Here are your to-do items:", 
+                "These are the tasks on your list:", 
+                "Here is what you need to do:", 
+                "Here is your to-do list:", 
+                "Here are the tasks you have:"
+            ]
+        }
+    ]
+}
